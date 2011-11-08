@@ -19,4 +19,7 @@
       <url>http://github.com/njrich28/meta</url>
    </scm>
 
+   <modules>
+   	<module>meta-api</module>
+   </modules>
 </project>
