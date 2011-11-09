@@ -21,5 +21,15 @@
 
    <modules>
    	<module>meta-api</module>
+   	<module>meta-impl</module>
    </modules>
+   <dependencyManagement>
+    <dependencies>
+    	<dependency>
+    		<groupId>com.github.njrich28.meta</groupId>
+    		<artifactId>meta-api</artifactId>
+    		<version>${project.version}</version>
+    	</dependency>
+    </dependencies>
+   </dependencyManagement>
 </project>
